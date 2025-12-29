@@ -1,9 +1,10 @@
 # 298724892 folder
-In this folder we can see 4 files:
+Files:
 1) 00110001_Are_You_Afraid_of_the_Dark.png
 1) 00110010_Phase_III.wav
 1) 00110011_Arthur_Lang_Journal.pdf
 1) Project_Eclipse.zip
+
 Still not sure what's the binary numbers in filename. Could be:
 - 49, 50 and 51 in decimal, maybe not
 - '1', '2', '3' in ASCII, maybe more plausible, so just the file index?
@@ -71,12 +72,8 @@ you don’t. Remember: the crescent always points the way.
 
 ## Project_Eclipse.zip
 The file is protected by password. I thought the lead was in some documents in the folder,
-but I was stuck there. In particular this sentence should be the main lead?
-```
-If you’re reading this, you’re close. The answer isn’t in what you see, it’s in what
-you don’t. Remember: the crescent always points the way.
-```
-Still no way to find the password, so with some help from
+but I was stuck there.
+With some help from
 [John the Ripper](https://github.com/openwall/john)
 ```
 $ zip2john Project_Eclipse.zip > Project_Eclipse_hash.txt
