@@ -14,4 +14,4 @@ The songs whisper nine secrets. Hear them and find the way forward. loopgarden.i
 So the zip file can be downloaded at 
 loopgarden.io/298724892.zip  
 
-Check 298724892/README.md
+The mystery goes on in [298724892/README.md](298724892/)
