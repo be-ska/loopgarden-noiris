@@ -13,6 +13,26 @@ Still not sure what's the binary numbers in filename. Could be:
 Maximizing the exposure, a QR code could be found, that lead to a picture
 https://loopgarden.io/Iris_Lang_515.jpg
 
+### Iris_Lang_515.jpg
+A picture of Iris (maybe) with some contact informations from someone who is spying on her.  
+Original text:
+```
+SUBJECT: IRIS LANG  
+DATE: XXXX  
+LOCATION: XXX  
+CONTACT INFORMATION  
+PHONE: (798) 914-2933  
+EMAIL: IRISLANG5159GMAIL.COM  
+ADDRESS: UNKNOWN  
+KNOWN ALIASES: EMILY WARREN, ANNA STERLING, SOPHIA WEST, DIANA REED  
+
+NOTES  
+IRIS LANG HAS BEEN IDENTIFIER USING MULTIPLE IDENTITIES ACROSS VARIOUS LOCATIONS.
+THESE ALIASES APPEAR IN CONNECTION WITH UNTRACEABLE TRANSACTIONS. FORGED DOCUMENTS AND OTHER ACTIVITIES DESIGNED TO OBFUSCATE HER TRAIL.
+SHE OPERATES UNDER THE RADAR, LEAVING BEHIND ONLY FRAGMENTED TRACES THAT SUGGEST A CALCULATED EFFORT TO EVADE SURVEILLANCE.
+```
+We try send her an email lol.
+
 ## 00110010_Phase_III.wav
 - Audio track say `Phase 2 was a success, phase 3 will begin shortly, all effort to secure - must be prioritized, she has become unpredictable, her proximity to - places her at risk at extended (maybe?)`
 - Reversing the last seconds, the track say:
@@ -20,8 +40,17 @@ https://loopgarden.io/Iris_Lang_515.jpg
 - Looking at the song spectrogram, the initial noise write "24", still not sure what to do with that.
 Also other songs' spectrogram has some embedded pictures
 
-### 00110010_Phase_III spectogram 
-![image](00110010_Phase_III_spectrum.png)
+### 00110010_Phase_III spectrogram 
+![image](spect_phase3.png)
+
+### 1. Silhouettes spectrogram
+![image](spect_silhouettes.png)
+
+### 5. Reflection spectrogram
+![image](spect_reflection.png)
+
+### 6. Red Herring spectrogram
+![image](spect_red_herring.png)
 
 ## 00110011_Arthur_Lang_Journal.pdf
 ```
@@ -82,5 +111,6 @@ $ john --incremental Project_Eclipse_hash.txt
 in just a few seconds the password was cracked, and it is `10241929`.
 Still not a clue how someone could have found that, maybe the 24 is from the spectrogram of
 00110010_Phase_III.wav  
+Actually maybe it's a date 24 October 1929, which is known as "Black Thursday"
 By the way cracking this zip lead to 2 additional documents, check Project_Eclipse/README.md
 
